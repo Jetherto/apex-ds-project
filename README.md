@@ -10,6 +10,8 @@ eda.ipynb: Queries local SQL database, cleans dataframe, and runs basic univaria
 
 cluster_ml.ipynb: Utlizes several clustering methods to attempt to identify 'true' ranks between players based off player eliminations and player level. Then employs various classification methods for the prediction of player rank and cluster based off player statistics. 
 
+anomaly.ipynb: Explores different anomaly detection methods on player statistic data.  
+
 
 
 
