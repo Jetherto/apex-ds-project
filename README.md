@@ -4,7 +4,7 @@ The webscraping portion of this project is for demonstration purposes only. Plea
 for your own analysis.
 
 # Project Description
-web_scrape.py: The webscraper grabs player platform and UID from apexlegendsstatus.com website. The website has a page that upon refresh will produce a random players in-game profile name and UID. These platform and UID are used to create a dictionary which key value pairs are used to query player statistics from the API. A pandas dataframe is then constructed to store the player statistic data and this dataframe is sent to a local SQLite database. 
+web_scrape.py: The webscraper grabs player platform and UID from apexlegendsstatus.com website. The website has a page that upon refresh will produce a random players in-game profile name and UID. These platform and UID create a dictionary thats used to query player statistics from the API. A pandas dataframe is then constructed to store the player statistic data, and this dataframe is sent to a local SQLite database. 
 
 eda.ipynb: Queries local SQL database, cleans dataframe, and runs basic univariate/bivariate analysis on relevant player statistics. 
 
